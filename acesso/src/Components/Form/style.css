@@ -1,0 +1,10 @@
+.Formulario {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Meio {
+    margin: 0 10px;
+}

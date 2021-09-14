@@ -1,0 +1,14 @@
+.home {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home a {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
