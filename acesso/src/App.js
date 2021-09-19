@@ -9,12 +9,14 @@ import {members} from "./members"
 
 function App() {
 
+  const [id,setId]=useState(members.length+1)
   const [listMembers,setListMember]=useState(members)
 
-  function handleDates(i,newName,newType){
-    setListMember([...listMembers,{id:`${i}`,name:`${newName}`,type:`${newType}`}]);
+  function handleDates(newName,newType){
+    setListMember([...listMembers,{id:`${id}`,name:`${newName}`,type:`${newType}`}]);
     newName=""
     newType=""
+    setId(id+1)
   }
   
   return (
